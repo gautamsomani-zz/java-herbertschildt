@@ -16,6 +16,9 @@ class Box	{
 //	# Contructor Below. Will Instantiate.	
 	Box()	{
 		System.out.println("Happy Diwali. ");
+		lenght = 5;
+		breadth = 6;
+		height = 8;
 	}
 
 	void display()	{
