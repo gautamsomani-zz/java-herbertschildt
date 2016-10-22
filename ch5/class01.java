@@ -19,8 +19,8 @@ class Box	{
 	double	lenght, breadth, height;
 	
 	void display()	{
-		System.out.println("mybox.lenght is " + mybox.lenght);
-		System.out.println("mybox.breadth is " + mybox.breadth);
-		System.out.println("mybox.height is " + mybox.height);
+		System.out.println("mybox.lenght is " + lenght);
+		System.out.println("mybox.breadth is " + breadth);
+		System.out.println("mybox.height is " + height);
 	}
 }
