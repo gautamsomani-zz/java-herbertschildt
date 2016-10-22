@@ -6,8 +6,8 @@ class contructor01	{
 		Box b2 = new Box();
 		Box b3 = new Box(15, 25, 35);
 
-		b2.display;
-		b3.display;
+		b2.display();
+		b3.display();
 	}
 }
 
