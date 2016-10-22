@@ -12,7 +12,7 @@ class class01	{
 
 class Box	{
 
-	double	lenght, breadht, height;
+	double	lenght, breadth, height;
 	
 	void display()	{
 		System.out.println("mybox.lenght is " + mybox.lenght);
