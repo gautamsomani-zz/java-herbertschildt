@@ -25,6 +25,10 @@ class Box	{
 		System.out.println("mybox.height is " + height);
 	}
 
-	void setdata(double a, double b, double c);
+	void setdata(double a, double b, double c)	{
+		lenght = a;
+		breadth = b;
+		height = c;
+	} 
 
 }
