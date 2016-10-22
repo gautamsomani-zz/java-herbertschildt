@@ -11,6 +11,8 @@ class class01	{
 		mybox.breadth = 11;
 		mybox.height = 12;
 
+		b2.setdata(50, 60, 70);
+
 		mybox.display();
 	}
 }
