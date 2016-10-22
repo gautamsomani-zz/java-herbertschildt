@@ -6,8 +6,6 @@ class contructor01	{
 //		# new will give memory. mybox is a reference pointer to memory. new will instantiate.
 		Box b2 = new Box();
 
-		b2.setData(50, 60, 70);
-
 	}
 }
 
