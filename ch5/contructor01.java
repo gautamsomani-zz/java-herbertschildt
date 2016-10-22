@@ -13,6 +13,10 @@ class Box	{
 
 	double	lenght, breadth, height;
 	
+	Box()	{
+		System.out.println("Happy Diwali. ");
+	}
+
 	void display()	{
 		System.out.println("mybox.lenght is " + lenght);
 		System.out.println("mybox.breadth is " + breadth);
