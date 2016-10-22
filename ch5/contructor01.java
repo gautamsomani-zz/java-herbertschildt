@@ -29,6 +29,13 @@ class Box	{
 		height = c;
 	} 
 
+//	# 2 Argument Constructor :)
+	Box(double a, double b)	{
+		lenght = a;
+		breadth = b;
+		height = 8;
+	} 
+
 	void display()	{
 		System.out.println("mybox.lenght is " + lenght);
 		System.out.println("mybox.breadth is " + breadth);
