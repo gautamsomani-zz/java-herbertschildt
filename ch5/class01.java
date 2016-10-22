@@ -5,6 +5,7 @@ class class01	{
 
 //		# new will give memory. mybox is a reference pointer to memory. new will instantiate.
 		Box mybox = new Box();
+		Box b2 = new Box();
 
 		mybox.lenght = 10;
 		mybox.breadth = 11;
@@ -23,4 +24,7 @@ class Box	{
 		System.out.println("mybox.breadth is " + breadth);
 		System.out.println("mybox.height is " + height);
 	}
+
+	void setdata(double a, double b, double c);
+
 }
