@@ -14,6 +14,7 @@ class class01	{
 		b2.setdata(50, 60, 70);
 
 		mybox.display();
+		b2.display();
 	}
 }
 
