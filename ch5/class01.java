@@ -3,7 +3,7 @@ class class01	{
 
 		System.out.println("Hello.");
 
-		Box mybox = new Box;
+		Box mybox = new Box();
 		mybox.lenght = 10;
 	}
 }
