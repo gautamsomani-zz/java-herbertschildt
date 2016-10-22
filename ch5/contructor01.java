@@ -5,9 +5,11 @@ class contructor01	{
 
 		Box b2 = new Box();
 		Box b3 = new Box(15, 25, 35);
+		Box b4 = new Box(1, 2);
 
 		b2.display();
 		b3.display();
+		b4.display();
 	}
 }
 
