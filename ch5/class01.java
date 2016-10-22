@@ -11,5 +11,12 @@ class class01	{
 }
 
 class Box	{
+
 	double	lenght, breadht, height;
+	
+	void display()	{
+		System.out.println("mybox.lenght is " + mybox.lenght);
+		System.out.println("mybox.breadth is " + mybox.breadth);
+		System.out.println("mybox.height is " + mybox.height);
+	}
 }
