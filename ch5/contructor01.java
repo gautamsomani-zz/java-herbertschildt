@@ -8,7 +8,6 @@ class contructor01	{
 
 		b2.setData(50, 60, 70);
 
-		b2.display();
 	}
 }
 
