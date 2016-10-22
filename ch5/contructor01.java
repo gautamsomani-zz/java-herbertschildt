@@ -19,13 +19,13 @@ class Box	{
 		lenght = 5;
 		breadth = 6;
 		height = 8;
-
-		Box(double a, double b, double c)	{
-			lenght = a;
-			breadth = b;
-			height = c;
-		} 
 	}
+
+	Box(double a, double b, double c)	{
+		lenght = a;
+		breadth = b;
+		height = c;
+	} 
 
 	void display()	{
 		System.out.println("mybox.lenght is " + lenght);
