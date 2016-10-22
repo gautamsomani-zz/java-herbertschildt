@@ -5,9 +5,12 @@ class class01	{
 
 //		# new will give memory. mybox is a reference pointer to memory. new will instantiate.
 		Box mybox = new Box();
+
 		mybox.lenght = 10;
-		mybox.breadth = 10;
-		mybox.height = 10;
+		mybox.breadth = 11;
+		mybox.height = 12;
+
+		mybox.display();
 	}
 }
 
