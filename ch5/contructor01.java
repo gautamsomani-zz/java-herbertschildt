@@ -4,7 +4,7 @@ class contructor01	{
 		System.out.println("Hello.");
 
 //		# new will give memory. mybox is a reference pointer to memory. new will instantiate.
-		Box mybox = new Box();
+		Box mybox = new Box(15, 25, 35);
 		Box b2 = new Box();
 
 		mybox.lenght = 10;
