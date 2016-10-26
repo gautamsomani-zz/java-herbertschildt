@@ -7,24 +7,29 @@ class contructor01	{
 		Box b3 = new Box(15, 25, 35);
 		Box b4 = new Box(1, 2);
 
-		b2.display();
-		b3.display();
-		b4.display();
+//		b2.display();
+//		b3.display();
+//		b4.display();
+
+		double vol = b3.volume(2,2,2);	
+		System.out.println("Volueme : " + vol);
 	}
 }
+
+
 
 class Box	{
 
 	double	lenght, breadth, height;
 
-//	# Contructor Below. Will Instantiate.	
+//	# Default Contructor Below. Will Instantiate.	
 	Box()	{
 		System.out.println("Happy Diwali. ");
 		lenght = 5;
 		breadth = 6;
 		height = 8;
 	}
-
+//	# Constructor. Will assign passed variables at run time to the variables.
 	Box(double a, double b, double c)	{
 		lenght = a;
 		breadth = b;
@@ -50,4 +55,12 @@ class Box	{
 		height = c;
 	} 
 
+	double volume(double a, double b, double c)	{
+		lenght = a;
+		breadth = b;
+		height = c;
+
+		double volueme = lenght * breadth * height;	
+		return volueme;
+	}
 }
