@@ -3,6 +3,7 @@ class objects03	{
 
 	Box b1 = new Box();
 	b1.setDim(4, 5, 6);
+
 	int vol = b1.volume();
 	System.out.println("Vol is " + vol);
 
